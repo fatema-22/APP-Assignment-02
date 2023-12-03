@@ -1,0 +1,91 @@
+<!-- Write HTML for the main form here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment#02</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+        <body>
+            <main>
+                <form action="confirmation.html" method="GET">
+                <div class="container">  
+                    <h1 id="title">Languages</h1>
+                    <p id="description">About your favorite Language</p>
+                </div class="space">
+                <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name-label" placeholder="Fatema Tawakoli" name="name" required minlength="3"/>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                         <input type="email" id="emai-label" name="email" placeholder="fatemah.tawakoli@gmail.com" required/>
+
+                    </div>
+                    <div>
+                        <label for="age">Age:</label> <input type="age" id="age-label" name="age"/>
+                    </div>
+
+                    <div class="space">
+                        <label for="select-language">which language did you learned?</label>
+                          <select id="language">
+                            <option name="Language">Select one language</option>
+                            <option name="language">French</option>
+                            <option name="language">Arabic</option>
+                            <option name="language">Persion</option>
+                            <option name="language">English</option>
+                            <option name="language">Spain</option>
+                            </select>
+
+                    </div>
+
+                    <div class="space">
+                        <label>What is your native thongue?</label>
+                        <input type="radio" name="thongue-choice" id="french/">
+                        <label for="french" class="inline-label">French</label>
+
+                        <input type="radio" name="thongue-choice" id="arabic/">
+                        <label for="arabic" class="inline-label">Arabic</label>
+
+                        <input type="radio" name="thongue-choice" id="german/">
+                        <label for="german" class="inline-label">German</label>
+
+                        <input type="radio" name="thongue-choice" id="english/">
+                        <label for="english" class="inline-label">English</label>
+                    </div>
+
+
+                    <div class="space">
+                        <label>which Language do you like to learn?</label>
+
+                        <input type="checkbox" id="french" name="add-choice"/>
+                        <label for="french" class="inline-label">French</label>
+
+                        <input type="checkbox" id="arabic" name="add-choice"/>
+                        <label for="arabic" class="inline-label">Arabic</label>
+
+                        <input type="checkbox" id="german" name="add-choice"/>
+                        <label for="german" class="inline-label">German</label>
+
+                        <input type="checkbox" id="english" name="add-choice"/>
+                        <label for="english" class="inline-label">English</label>
+
+                        <input type="checkbox" id="spain" name="add-choice"/>
+                        <label for="spain" class="inline-label">Spain</label>
+                    </div>
+                    <div>
+                    <label for="comments" class="comments">Comments</label>
+                    <textarea id="comments" placeholder="Write here"></textarea>
+                    </div>
+                    <div id="end">
+                     <button type="submit">Submit</button>
+                      <button type="reset">Reset</button>
+                    </div>
+                    <div>
+                        <footer>
+                            <p class="made">Made by Fatema Tawakoli</p>
+                        </footer>
+                    </div>
+                    </form>
+            </main>
+        </body>
+</html>

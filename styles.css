@@ -1,0 +1,59 @@
+/* Write CSS here */
+body {
+    background-image: url(learnin.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    opacity: 0.85;
+}
+.made {
+   font-size: 12px;
+}
+  p{
+   text-align: center;
+  }
+ 
+
+h1 , p {
+    text-align: center;
+}
+.thankyou {
+    text-align: center;
+}
+main {
+    background-color: #86abf0;
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     padding-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 15px;
+     border-radius: 20px
+}
+
+#end {
+text-align: center;
+}
+label {
+    display: block;
+}
+.inline-label {
+    display: inline
+}
+.space {
+      margin-top: 15px;
+}
+input[type="text"] , [type="email"]
+ ,[type="age"] {
+ width:100%;
+ height: 30px;
+}
+.comments {
+    margin-top: 15px;
+    
+}
+textarea {
+   width:100%;
+}
+            
